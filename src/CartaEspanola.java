@@ -1,4 +1,3 @@
-package juego_cartas.src;
 public class CartaEspanola extends carta {
 
     //hazme el constructor y el tostring

@@ -1,6 +1,5 @@
-package juego_cartas.src;
 public class CartaAlemana extends carta {
-    public CartaAlemana(int valor, String palo) {
+    public CartaAlemana(String palo, int valor) {
         super(palo, valor);
     }
     
