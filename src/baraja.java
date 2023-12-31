@@ -60,7 +60,7 @@ public class baraja {
         Mazobarajado = new carta[ncartas];
 
         for (int i = 0; i < Mazobarajado.length; i++) {
-            int random = Math.random() * ncartas;
+            int random = (int)Math.random() * ncartas;
             if( Mazo[random] != null) {
                 Mazobarajado[i] = Mazo[random]; 
                 Mazo[random] = null;

@@ -1,4 +1,3 @@
-package juego_cartas.src;
 public class CartaPoker extends carta{
     //constructor
     public CartaPoker(String palo, int valor){

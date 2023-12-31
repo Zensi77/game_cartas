@@ -1,4 +1,3 @@
-package juego_cartas.src;
 public class carta {
 
     public String palo;
