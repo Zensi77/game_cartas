@@ -3,6 +3,12 @@ public class carta {
     public String palo;
     public int valor;
 
+    // Constructor vacio para asi crear cartas que juegan los jugadores en cada turno
+    public carta(){
+        palo = "";
+        valor = 0;
+    }
+
     public carta(String palo, int valor){
         this.palo = palo;
         this.valor = valor;

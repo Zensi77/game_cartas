@@ -101,10 +101,10 @@ public class baraja {
                 }
             }
         }
-        // enseña el mazo creado
+        /* enseña el mazo creado
         for (int i = 0; i < Mazo.length; i++)
             System.out.println(Mazo[i]);
-
+        */
     }
 
     public void barajar() {
