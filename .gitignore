@@ -1,4 +1,5 @@
+*.json
+/bin/
+.classpath
+.project
 
-src/App.java
-
-.vscode/settings.json
