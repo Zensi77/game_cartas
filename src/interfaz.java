@@ -7,7 +7,7 @@ public class interfaz {
         System.out.println("Ingrese el tipo de baraja: ");
         do{
             tipoMazo = sc.nextLine();
-        } while(!tipoMazo.equalsIgnoreCase("poker") && !tipoMazo.equalsIgnoreCase("española") && !tipoMazo.equalsIgnoreCase("alemana"));
+        } while(!tipoMazo.equalsIgnoreCase("poker") && !tipoMazo.equalsIgnoreCase("espanola") && !tipoMazo.equalsIgnoreCase("alemana"));
         baraja baraja = new baraja(tipoMazo);
 
         //Vamos a contruir la baraja en cuestion
@@ -18,7 +18,7 @@ public class interfaz {
         for(int i = 0; i < CartasBaraja.length; i++){
             System.out.println(CartasBaraja[i]);
         }
-        System.out.println(baraja.numCartas());
+        System.out.println(CartasBaraja.length);
         
     }
 
