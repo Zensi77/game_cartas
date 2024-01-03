@@ -128,16 +128,17 @@ public class baraja {
     }
 
     public void reiniciar() {
-        // Segun mi concepto, regenero el array de cartas, PERO SIN BARAJARLAS
-        // Lo voy a hacer poniendo el Array barajado a null, comprobando en la interfaz
-        // si este esta a null, como condicion para empezar la partida
+        /* Segun mi concepto, regenero el array de cartas, PERO SIN BARAJARLAS
+        Lo voy a hacer poniendo el Array barajado a null, comprobando en la interfaz
+        si este esta a null, como condicion para empezar la partida
+        */
         for (int i = 0; i < Mazobarajado.length; i++)
             Mazobarajado[i] = null;
     }
 
     public int numCartas() {
         int contadorCartas = 0;
-        for (int i = 0; i < Mazobarajado.length; i++)
+        for (int i = 0; i < ncartas; i++)
             if (Mazobarajado[i] != null)
                 contadorCartas++;
         return contadorCartas;

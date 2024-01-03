@@ -60,4 +60,12 @@ public class carta {
         }
         else return false;
     }
+
+    //hazme un toString
+    public String toString(){
+        return "Carta{" +
+                "palo='" + palo + '\'' +
+                ", valor=" + valor +
+                '}';
+    }
 }
